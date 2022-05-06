@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lilsen foods</title>
+    <!--font awesome cdn-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+
+    <!-- bootstrap cdn -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--swiper cdn-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"
+    />
+
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--header section start-->
+    <header>
+      <div class="navbar_container">
+        <a href="#" class="logo">lilsen<span>foods</span></a>
+
+        <nav class="navbar">
+          <a href="#home">home</a>
+          <a href="#about">about</a>
+          <a href="#menu">menu</a>
+          <a href="#review">review</a>
+          <a href="#order">order</a>
+          <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons" data-before='0'>
+          <i class="fas fa-bars" id="menu-bars"></i>
+          <i class="fas fa-search" id="search-icon"></i>
+          <button class="fas fa-heart" id="likedBtn" type="button">
+          </button>
+          <button class="fas fa-shopping-cart" id="cartBtn" type="button">
+          </button>
+          
+        </div>
+      </div>
+    </header>
+
+    <!--header section ends-->
+
+    <!--search form-->
+
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="search here..."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!--hero section-->
+
+    <section class="home" id="home">
+      <div class="container">
+        <div class="wrapper">
+        <h3>Where you <span id="type1"></span></h3>
+        <a href="#order"><button class="button">ORDER NOW</button></a>
+      </div>
+      </div>
+    </section>
+    <!--hero section end-->
+
+    <!--about section-->
+
+    <section class="about" id="about">
+      <h3 class="sub-heading">about us</h3>
+
+      <div class="row">
+        <div class="img">
+          <img src="images/about us img.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>A different level of satisfaction</h3>
+          <p>
+            Enjoy the best and different satisfaction. When it comes to customer
+            satisfaction, we are the best.
+          </p>
+          <p>
+            Whilst there may be competitors, we have proven to be the best. Our
+            customer review says it all. lilsenfoods is here to stay!
+          </p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-shipping-fast"></i>
+              <span>swift delivery</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-dollar-sign"></i>
+              <span>easy payments</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>excellent delivery service</span>
+            </div>
+          </div>
+          <a href="#" class="button">learn more</a>
+        </div>
+      </div>
+    </section>
+    <!--about section end-->
+
+    <!--special dish section-->
+    <section class="special-dish" id="special-dish">
+      <div class="swiper special-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>This month special dish</span>
+              <h3>wrap burrito</h3>
+              <p>You can never get enough of it.</p>
+              <a href="#order" class="button">order now</a>
+            </div>
+            <div class="image">
+              <img src="images/special dish 2.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>This month special dish</span>
+              <h3>chicken biryani</h3>
+              <p>You can never get enough of it.</p>
+              <a href="#order" class="button">order now</a>
+            </div>
+            <div class="image">
+              <img src="images/special dish 3.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>This month special dish</span>
+              <h3>burger</h3>
+              <p>You can never get enough of it.</p>
+              <a href="#order" class="button">order now</a>
+            </div>
+            <div class="image">
+              <img src="images/hamburger.jpeg" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>This month special dish</span>
+              <h3>chicken fries</h3>
+              <p>You can never get enough of it.</p>
+              <a href="#order" class="button">order now</a>
+            </div>
+            <div class="image">
+              <img src="images/chicken fries.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!--special dish section ends-->
+
+    <!--menu section starts-->
+
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">our menu</h3>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="images">
+            <img src="images/menu 1.jpg" alt="dishes" class="shop-item-image"/>
+            <button class="fas fa-heart liked-item" type="button"></button>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3 class="shop-item-title">Sumptious meal1</h3>
+            <p class="shop-item-desc">enjoy the best meal</p>
+            <button class="shop-item-button" type="button">add to cart</button>
+            <span class="shop-item-price">$5.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="images">
+            <img src="images/menu 2.jpg" alt="dishes" class="shop-item-image"/>
+            <button class="fas fa-heart liked-item" type="button"></button>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3 class="shop-item-title">Sumptious meal2</h3>
+            <p class="shop-item-desc">enjoy the best meal</p>
+            <button class="shop-item-button" type="button">add to cart</button>
+            <span class="shop-item-price">$10.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="images">
+            <img src="images/menu 3.jpg" alt="dishes" class="shop-item-image"/>
+            <button class="fas fa-heart liked-item" type="button"></button>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3 class="shop-item-title">Sumptious meal3</h3>
+            <p class="shop-item-desc">enjoy the best meal</p>
+            <button class="shop-item-button" type="button">add to cart</button>
+            <span class="shop-item-price">$10.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="images">
+            <img src="images/menu 4.jpg" alt="dishes" class="shop-item-image"/>
+            <button class="fas fa-heart liked-item" type="button"></button>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3 class="shop-item-title">Sumptious meal4</h3>
+            <p class="shop-item-desc">enjoy the best meal</p>
+            <button class="shop-item-button" type="button">add to cart</button>
+            <span class="shop-item-price">$50.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="images">
+            <img src="images/menu 5.jpg" alt="dishes" class="shop-item-image" />
+            <button class="fas fa-heart liked-item" type="button"></button>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3 class="shop-item-title">Sumptious meal5</h3>
+            <p class="shop-item-desc">enjoy the best meal</p>
+            <button class="shop-item-button" type="button">add to cart</button>
+            <span class="shop-item-price">$5.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="images">
+            <img src="images/menu 7.jpg" alt="dishes" class="shop-item-image"/>
+            <button class="fas fa-heart liked-item" type="button"></button>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3 class="shop-item-title">Sumptious meal6</h3>
+            <p class="shop-item-desc">enjoy the best meal</p>
+            <button class="shop-item-button" type="button">add to cart</button>
+            <span class="shop-item-price">$10.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="images">
+            <img src="images/menu 8.jpg" alt="dishes" class="shop-item-image"/>
+            <button class="fas fa-heart liked-item" type="button"></button>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3 class="shop-item-title">Sumptious meal7</h3>
+            <p class="shop-item-desc">enjoy the best meal</p>
+            <button class="shop-item-button" type="button">add to cart</button>
+            <span class="shop-item-price">$12.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="images">
+            <img src="images/menu 9.jpg" alt="dishes" class="shop-item-image"/>
+            <button class="fas fa-heart liked-item" type="button"></button>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3 class="shop-item-title">Sumptious meal8</h3>
+            <p class="shop-item-desc">enjoy the best meal</p>
+            <button class="shop-item-button" type="button">add to cart</button>
+            <span class="shop-item-price">$8.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="images">
+            <img src="images/penne-pasta.jpg" alt="dishes" class="shop-item-image"/>
+            <button class="fas fa-heart liked-item" type="button"></button>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3 class="shop-item-title">Sumptious meal9</h3>
+            <p class="shop-item-desc">enjoy the best meal</p>
+            <button class="shop-item-button" type="button">add to cart</button>
+            <span class="shop-item-price">$5.00</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cart modal -->
+
+    <div id="cartModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2 class="section-header">CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+
+      <div class="cart-items">
+
+        </div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+      </div>
+      <button class="button btn-purchase" type="button">
+        CHECKOUT
+      </button>
+      </div>
+    </div>
+
+    <!-- liked items -->
+
+     <div id="likedModal" class="modal">
+      <div class="modal-content">
+        <span class="close-liked-btn">&times;</span>
+        <h2 class="section-header">Liked Items</h2>
+
+      <div class="liked-items">
+
+        </div>
+      </div>
+    </div>
+    <!--menu section ends-->
+
+    <!--==review section starts==-->
+
+    <section class="review" id="review">
+      <h3 class="sub-heading">customer's review</h3>
+
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <div class="slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                  <img src="images/customer 4.jpg" alt="" />
+                  <div class="user-info">
+                    <h3>Prince Will</h3>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  After my first experience with them, i can say that they are
+                  the best.
+                </p>
+              </div>
+            </li>
+
+            <li class="glide__slide">
+              <div class="slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                  <img src="images/customer 3.jpg" alt="" />
+                  <div class="user-info">
+                    <h3>Miracle Smith</h3>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  After my first experience with them, i can say that they are
+                  the best.
+                </p>
+              </div>
+            </li>
+
+            <li class="glide__slide">
+              <div class="slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                  <img src="images/customer 2.jpg" alt="" />
+                  <div class="user-info">
+                    <h3>Adedoyin Miracle</h3>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>Their customer satisfaction is top-notch.</p>
+              </div>
+            </li>
+
+            <li class="glide__slide">
+              <div class="slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                  <img src="images/customer 1.jpg" alt="" />
+                  <div class="user-info">
+                    <h3>Ruth B.</h3>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  All i can just say is that they are at the beginning of their
+                  game.
+                </p>
+              </div>
+            </li>
+
+            <li class="glide__slide">
+              <div class="slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                  <img src="images/customer 5.jpg" alt="" />
+                  <div class="user-info">
+                    <h3>King Bright</h3>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  I had my first date at lilsen and i will say, they at their
+                  very best.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--==End of review==-->
+
+    <!--order section start-->
+    <section class="order" id="order">
+      <h3 class="sub-heading">order now</h3>
+      <h1 class="heading">swift delivery</h1>
+
+      <div class="order-row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2034354.6094986452!2d0.571408659733545!3d5.207753700722571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1631640550836!5m2!1sen!2sng"
+          width="500"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+
+        <form action="" id="form">
+          <div class="inputBox">
+             <div class="input">
+              <select id="dropdown" name="" class="">
+                <option value="" disabled selected hidden>
+                  Preferred food
+                </option>
+                <option value="chicken-fries">Chicken fries</option>
+                <option value="Wrap burrito">Wrap burrito</option>
+                <option value="pizza">Pizza</option>
+                <option value="home-made jollof">Home-made jollof</option>
+                <option value="penne-pasta">Penne Pasta</option>
+                <option value="noodles">Noodles</option>
+                <option value="others">Others</option>
+              </select>
+              <div id="others-input" class="hidden">
+              <span>Preffered food <small>others:</small></span>
+              <input type="text" id="others" placeholder="please specify" />
+            </div>
+            </div>
+            
+            <div class="input">
+              <input type="tel" id="tel" placeholder="contact no." required />
+            </div>
+          </div>
+
+          <div class="inputBox">
+            <div class="input">
+              <input type="text" id="name" placeholder="enter your name" required />
+            </div>
+            <div class="input">
+              <input type="email" id="email" placeholder="Email" required/>
+            </div>
+          </div>
+
+          <div class="inputBox">
+            <div class="input">
+              <input type="date" id="date" required />
+            </div>
+            <div class="input">
+              <input type="time" id="time" required />
+            </div>
+          </div>
+
+          <input type="submit" value="order now" class="button" />
+        </form>
+      </div>
+    </section>
+    <!--end of order section-->
+
+    <!--newsletter section-->
+
+    <section class="newsletter">
+      <div class="overlay">
+        <div class="content container">
+          <h3 class="sub-heading">Newsletter</h3>
+          <p>Input your email for latest lilsen update</p>
+          <form action="">
+            <input type="text" id="email" placeholder="Enter Your E-Mail" />
+            <input type="text" class="bttn" value="Subscribe" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--newsletter section ends-->
+
+    <!--footer section start-->
+
+    <section class="footer" id="contact">
+      <div class="box-container">
+        <div class="box">
+          <h3>Opening Hours</h3>
+          <p>Monday-Thursday</p>
+          <span>9:00 AM-9:00 PM</span>
+
+          <p>Friday-Saturday</p>
+          <span>10:00 AM-9:00 PM</span>
+
+          <p>Sunday</p>
+          <span>4:00 PM-11:00 PM</span>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#">+234-9034-031-589</a>
+          <a href="#">+234-9034-031-589</a>
+          <a href="#">duruprincewilluzochukwu<br />@gmail.com</a>
+        </div>
+
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Menu</a>
+          <a href="#">Review</a>
+          <a href="#">Order</a>
+          <a href="#">Contact</a>
+        </div>
+
+        <div class="box">
+          <h3>Follow us</h3>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+        </div>
+      </div>
+
+      <div class="credit">
+        &copy copyright 2022 by <span>Princewill Duru</span>
+      </div>
+    </section>
+
+    <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+    <!--swiper js-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!--typeit-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+
+    <!--glidejs-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!---custom script-->
+    <script src="app.js"></script>
+  </body>
+</html>
